@@ -1,0 +1,20 @@
+# Build output and editor caches
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+*.sln
+*.pdb
+
+# Epic's plugins and the VR Template content are Epic's code and art. Setup-NativeVR.ps1 fetches them from the
+# CSS engine source; they are never committed here.
+/Mods/OpenXR/
+/Mods/XRBase/
+/Mods/OpenXRHandTracking/
+/Mods/OpenXREyeTracker/
+/Mods/LiveLink/
+/Content/
+/OpenXR/
+/XRBase/
+/VRTemplate/
